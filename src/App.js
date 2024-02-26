@@ -5,6 +5,7 @@ import { ThemeProvider } from '@mui/system';
 import theme from './styles/theme/Theme';
 import Appbar from './components/appbar/appbar';
 import Banner from './components/banner/banner';
+import Promotions from './components/promotions/promotions';
 
 function App() {
   useEffect (() => {
@@ -16,10 +17,9 @@ function App() {
       <Container maxWidth='xl' sx={{background: '#fff'}}>
         <Appbar/>
         <Banner/>
+        <Promotions/>
         {
           /*
-          Appbar
-          Banner
           Promotions
           Title
           Footer

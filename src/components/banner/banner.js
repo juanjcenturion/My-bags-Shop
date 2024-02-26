@@ -9,9 +9,9 @@ export default function Banner() {
         <BannerContainer>
             <BannerImage src="/images/banner/banner-ryzen.png" />
             <BannerContent>
-                <Typography variant="h6">Huge Collection</Typography>
-                <BannerTitle variant='h2'>
-                    New Bags
+                <Typography variant="h6">Ryzen 7000 Series.</Typography>
+                <BannerTitle variant='h3'>
+                    New Drop
                 </BannerTitle>
 
                 <BannerDescription variant="subtitle">
